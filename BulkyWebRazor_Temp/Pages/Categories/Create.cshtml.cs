@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using BulkyWebRazor_Temp.Data;
-using BulkyWebRazor_Temp.Model;
+using BulkyBookWebRazor_Temp.Data;
+using BulkyBookWebRazor_Temp.Model;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BulkyWebRazor_Temp.Pages.Categories
+namespace BulkyBookWebRazor_Temp.Pages.Categories
 {
     public class CreateModel : PageModel
     {
