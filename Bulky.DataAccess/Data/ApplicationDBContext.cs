@@ -26,7 +26,10 @@ namespace BulkyBookWeb.DataAccess.Data
                     Price = 100.53,
                     ListPrice = 98.03,
                     Price50 = 95.24,
-                    Price100 = 90
+                    Price100 = 90,
+                    CategoryId = 1,
+                    ImageUrl = ""
+                    
                 },
                 new Product
                 {
@@ -38,15 +41,17 @@ namespace BulkyBookWeb.DataAccess.Data
                     Price = 110.75,
                     ListPrice = 105.50,
                     Price50 = 100.00,
-                    Price100 = 95.00
-                 }
+                    Price100 = 95.00,
+                    CategoryId = 2,
+                    ImageUrl = ""
+                }
 
                 );
-            /*modelBuilder.Entity<Category>().HasData(
-                new Category { Id = 1, CategoryName = "Action", DisplayOrder=1},
+            modelBuilder.Entity<Category>().HasData(
+                new Category { Id = 1, CategoryName = "Action", DisplayOrder = 1 },
                 new Category { Id = 2, CategoryName = "SciFi", DisplayOrder = 2 },
                 new Category { Id = 3, CategoryName = "History", DisplayOrder = 3 }
-                );  */
+                );
 
 
 
